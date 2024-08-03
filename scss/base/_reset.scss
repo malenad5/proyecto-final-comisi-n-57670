@@ -1,0 +1,23 @@
+*{
+   
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: map-get($colores, color1 );
+    font-family:'poppins' , sans-serif;
+   
+}
+@font-face {
+    font-family: general ;
+    src: url(../assets/fonts/Caramella_Regular.ttf) ;
+
+}
+.logo-chocolate1{
+    width: 40px;
+    height: 40px;
+    transform: rotate(90deg);
+    
+}

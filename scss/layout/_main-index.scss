@@ -1,0 +1,51 @@
+
+.principal-inicio{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("../img/jason-leung-3ftFEjJo7u0-unsplash.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo{
+    color: map-get($colores, color3 );
+    font-size: 70px;
+    font-weight: 600;
+    transform: translate(-4%, -4%);
+    font-size: 80px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -600px 0;
+    animation: backcolor 5s linear infinite alternate;
+
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
+
+section{
+    article{
+        margin: 10px;
+    text-align: center;
+    color: map-get($colores, color4 );
+    }
+}
+.parrafo-inicio{
+    padding: 20px 100px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 40px;
+    
+}

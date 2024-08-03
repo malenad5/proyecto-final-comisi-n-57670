@@ -1,0 +1,8 @@
+.bg-css{
+    background-color: map-get($colores, color2);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+.bg-colores{
+color: map-get($colores, color3);} 

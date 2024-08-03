@@ -1,0 +1,12 @@
+.boton-principal {
+    background-color: map-get($colores, color5);
+    color: map-get($colores, color3);
+    padding: 3px 3px;
+    border: solid map-get($colores, color5);
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-weight: 200;
+    font-size: 13px;
+    
+}
