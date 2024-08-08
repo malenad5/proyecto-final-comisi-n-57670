@@ -1,12 +1,5 @@
 @media(max-width:320px){
-    .titulo{
-        font-size: 33px;
-    }
-    .principal-inicio{
-        width: 100%;
-        height: 280px;
-
-    }
+    
     .navbar-toggler{
         font-size: 12px;
         color: #fff;
@@ -14,9 +7,6 @@
 
     }
     
-    .logo-navegacion{
-        width: 5px;
-    }
     .logo-chocolate1{
         width: 43px;
         height: 43px;
@@ -24,15 +14,17 @@
         margin-top: -5px;
 
     }
-
-    footer{ 
-        h3{
-        margin-right: 15px;
-        margin-left: 37px;
-        font-size: 12px;
     
+    
+    .principal-inicio{
+        width: 100%;
+        height: 280px;
+
     }
-}
+    .titulo{
+        font-size: 33px;
+    }
+    
     .secundario-inicio{
 
         font-size: 14px;
@@ -40,6 +32,7 @@
         margin-top: 50px;
         
     }
+    
     .parrafo-inicio{
         width: 90%;
         font-size: 10px;
@@ -55,7 +48,15 @@
         
     }
     
+    footer{
+        h3{
+        
+        margin-right: 15px;
+        margin-left: 37px;
+        font-size: 12px;
     
+    }
+}
     .nuestra-historia{
         width: 100%;
         height: 280px;
@@ -66,7 +67,7 @@
     }
     .h2-nuestra{
         font-size: 14px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
 
     }
     .parrafo-inicio-nuestra{
@@ -128,7 +129,6 @@
         
     }
     .productos{
-
         h3{
         font-size:10px;
         
@@ -142,5 +142,6 @@
     
 
 }
+
 
 

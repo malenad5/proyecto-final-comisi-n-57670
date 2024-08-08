@@ -1,13 +1,12 @@
 .nuestra-historia{
+    @include flex(flex,center,center);
     background-image:url("../img/cacao-corazón-chocolate-riesgo-cardiovascular.jpeg");
     background-position:center;
     background-size: cover;
     background-repeat:no-repeat ;
     width: 100%;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 .titulo-nuestra{
     text-decoration: none;
@@ -16,8 +15,8 @@
     font-size: 80px;
 }
 .parrafo-inicio-nuestra{
+    @include flex2(block,center);
     padding: 0 100px;
-    display: block;
     width: 70%;
     margin: 0 auto;
     font-size: 17px;
@@ -25,7 +24,7 @@
     border-bottom: 1px solid rgb(78, 51, 43);
     margin-bottom: 110px;
     color: map-get($colores, color4 );
-    text-align: center;
+    
     
 
 
@@ -33,15 +32,14 @@
 
 
 .parrafo-nuestrah{
+    @include flex2(block,center);
     color:#ffff;
     margin: 30px;
-    text-align: center;
     background-color:rgb(107, 72, 61) ;
     width: 100%;
     height: 500px;
     box-sizing:0;
     padding: 100px;
-    display: block;
     margin: 0 auto;
     line-height: 40px;
     

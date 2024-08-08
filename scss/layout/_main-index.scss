@@ -1,18 +1,19 @@
 
 .principal-inicio{
+    @include flex(flex,center,center);
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("../img/jason-leung-3ftFEjJo7u0-unsplash.jpg");
     background-position:center;
     background-size: cover;
     background-repeat:no-repeat ;
     width: 100%;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
 }
 
 
 .titulo{
+    
     color: map-get($colores, color3 );
     font-size: 70px;
     font-weight: 600;
@@ -40,6 +41,20 @@ section{
     color: map-get($colores, color4 );
     }
 }
+
+
+.secundario-inicio{
+
+    font-size: 30px;
+    border-bottom: 1px solid rgb(78, 51, 43);
+    width: 60%;
+    margin: 0 auto ;
+    margin-top: 80px;
+    margin-bottom: 5px;
+
+
+
+}
 .parrafo-inicio{
     padding: 20px 100px;
     display: block;
@@ -47,5 +62,17 @@ section{
     margin: 0 auto;
     font-size: 17px;
     line-height: 40px;
+    
+}
+.boton-principal {
+    background-color: map-get($colores, color5);
+    color: map-get($colores, color3);
+    padding: 3px 3px;
+    border: solid map-get($colores, color5);
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-weight: 200;
+    font-size: 13px;
     
 }
