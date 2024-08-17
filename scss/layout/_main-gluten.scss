@@ -1,3 +1,13 @@
+.principal-chocolate2{
+    @include flex(flex,center,center);
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("../img/gluten-free/julian-hochgesang-huepD-06_pQ-unsplash.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+
+}
 .gluten-free{
     
     width: 60px;
